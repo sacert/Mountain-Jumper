@@ -1,0 +1,37 @@
+@font-face {
+  font-family: blocky;
+  src: url(assets/telegrama_render.otf);
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-size: 20px;
+}
+
+
+#container {
+	height:55%;
+}
+
+#ground {
+	background-color: black;
+	height: 40%;
+	width: 100%;
+}
+
+#score {
+	font-family: blocky;
+	margin-right: 15px;
+	text-align: right;
+	height: 5%;
+}
+
+#ground > img {
+    display: block;
+    margin: 0 auto;
+	padding-top: 25px;
+}
+
+
