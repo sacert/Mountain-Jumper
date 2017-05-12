@@ -17,7 +17,7 @@ html, body {
 
 #ground {
 	background-color: black;
-	height: 40%;
+	height: 35%;
 	width: 100%;
 }
 
@@ -32,6 +32,18 @@ html, body {
     display: block;
     margin: 0 auto;
 	padding-top: 25px;
+}
+
+.footer {
+	padding-left: 1em;
+	font: 10pt sans-serif;
+	color: white;
+	background-color: black;
+	height: 5%;
+}
+
+.footer a {
+	color: #c3c3c3;
 }
 
 
